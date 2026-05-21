@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-05-21T19:08:35.626004Z",
-  "records": 2160,
+  "generatedAt": "2026-05-21T20:35:37.574067Z",
+  "records": 2184,
   "brands": 35,
-  "models": 227,
+  "models": 229,
   "confirmedOE": 1513,
   "highConfidence": 546,
   "mediumConfidence": 1302,
-  "lowConfidence": 312,
+  "lowConfidence": 336,
   "groups": {
-    "Brake pads": 315,
-    "Rear bumper": 212,
-    "Front bumper": 252,
-    "Taillights": 121,
-    "Headlights": 138,
-    "Side mirrors": 76,
+    "Brake pads": 317,
+    "Rear bumper": 214,
+    "Front bumper": 254,
+    "Taillights": 123,
+    "Headlights": 140,
+    "Side mirrors": 78,
     "Other": 967,
     "Engine internals": 3,
     "Engine cooling": 1,
-    "Brake discs": 22,
-    "Filters": 37,
-    "Doors": 1,
-    "Hood": 1,
+    "Brake discs": 24,
+    "Filters": 43,
+    "Doors": 3,
+    "Hood": 3,
     "Water pump": 1,
     "Radiator": 1,
     "Thermostat": 1,
@@ -86,6 +86,10 @@
       33
     ],
     [
+      "DONGFENG",
+      29
+    ],
+    [
       "GREAT WALL / GWM",
       26
     ],
@@ -112,10 +116,6 @@
     [
       "Shacman",
       16
-    ],
-    [
-      "UNKNOWN",
-      13
     ]
   ]
 }

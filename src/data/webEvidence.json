@@ -1,7 +1,20 @@
 {
-  "generatedAt": "2026-05-21T20:30:51.974052+00:00",
+  "generatedAt": "2026-05-21T20:35:37.567362+00:00",
   "queryCount": 80,
   "records": [
+    {
+      "vehicle": "DONGFENG Captain / 东风凯普特 H100/3500 candidate",
+      "partGroup": "Front bumper",
+      "candidateNumbers": [
+        "2803010-C42532"
+      ],
+      "title": "Dongfeng Kapute/Captain front bumper public JD/Chinese web lead",
+      "url": "https://item.jd.com/100042102463.html",
+      "snippet": "Chinese search result: 东风 凯普特前杠 前保险杠 2803010-c42532. Public marketplace evidence only; not tied to the uploaded Moroccan 1980mm/2030mm cab variants by VIN/EPC.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Do not promote as confirmed OE until supplier confirms compatibility with Captain 3500 L 2030mm cab or H100/3500 1980mm cab, front panel/fog/grille holes and LHD market.",
+      "collectedAt": "2026-05-21T20:35:37.567339+00:00"
+    },
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
       "partGroup": "Brake booster — not clutch booster",
@@ -88,6 +101,165 @@
       "buyerNote": "Confirm whether VIN uses ZD25/ZD30/Weichai/Yuchai engine. Water pump is engine-code dependent."
     },
     {
+      "vehicle": "Sinotruk HOWO / HOWO A7 heavy truck family",
+      "partGroup": "Brake pads",
+      "query": "HOWO WG9100440027 brake pad",
+      "candidateNumbers": [
+        "WG9100440027"
+      ],
+      "title": "Supplier results: Sinotruk HOWO / HOWO A7 front brake pad WG9100440027",
+      "url": "https://lianwo.en.made-in-china.com/product/rOETgUsdAFpb/China-HOWO-A7-Part-Brake-Pad-6-Holes-Wg9100440027-Sinotruk-Spare-Parts.html",
+      "snippet": "Search results included Made-in-China “HOWO A7 Part Brake Pad 6-Holes WG9100440027”, Alibaba “Front Brake Pad WG9100440027”, and sinosms.com “WG9100440027 Front Brake Pad for Sinotruk HOWO Truck”.",
+      "evidenceLevel": "Candidate web evidence — requires axle/brake-system + EPC/VIN confirmation",
+      "buyerNote": "Brake pad is axle/brake-caliper dependent. Confirm A7 vs classic HOWO, front/rear axle, 6-hole pad shape/dimensions and current pad photo.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO / WD615 engine family",
+      "partGroup": "Clutch disc",
+      "query": "HOWO WG1560161130 clutch disc",
+      "candidateNumbers": [
+        "WG1560161130"
+      ],
+      "title": "Supplier results: HOWO clutch disc / clutch disk WG1560161130",
+      "url": "https://www.sinotruk-parts-store.com/html/Howo_Parts/WG1560161130_Howo_Truck_Parts_Clutch_Disk_Product.html",
+      "snippet": "Search results exposed sinotruk-parts-store “WG1560161130, Howo Truck Parts, Clutch Disk”, Made-in-China “Wg1560161130 Clutch Disc for Sinotruk HOWO Heavy Duty Truck”, and sinotrukhowospareparts.com.",
+      "evidenceLevel": "Candidate web evidence — requires gearbox/clutch dimensions + EPC/VIN confirmation",
+      "buyerNote": "Confirm clutch diameter, spline count, engine torque rating, gearbox model and whether kit includes pressure plate/release bearing.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO / WD615 engine family",
+      "partGroup": "Fuel filter",
+      "query": "HOWO VG1540080211 filter",
+      "candidateNumbers": [
+        "VG1540080211"
+      ],
+      "title": "Supplier/filter results: HOWO fuel filter VG1540080211 / CX1016",
+      "url": "https://www.sinotruk-parts-store.com/html/Howo_Parts/VG1540080211_Fuel_Filter_Howo_Truck_Parts.html",
+      "snippet": "Search results labelled VG1540080211 as Fuel Filter / HOWO truck parts; cross-reference and Greatman result also exposed VG1540080211/CX1016. Not treated as air filter despite one broad filter query.",
+      "evidenceLevel": "Candidate web evidence — requires engine/fuel-system + current filter confirmation",
+      "buyerNote": "Confirm exact filter type (fuel vs separator), engine, fuel-water separator layout and current filter marking before ordering.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO / WD615 engine family",
+      "partGroup": "Oil filter",
+      "query": "HOWO VG61000070005 oil filter",
+      "candidateNumbers": [
+        "VG61000070005"
+      ],
+      "title": "Supplier results: Sinotruk HOWO WD615 oil filter VG61000070005",
+      "url": "https://www.fridayparts.com/oil-filter-vg61000070005-for-sinotruk-howo-engine-wd615",
+      "snippet": "Search results included FridayParts “Oil Filter VG61000070005 for Sinotruk Howo Engine WD615”, sinotrukparts.com “VG61000070005 Sinotruk Howo Oil Filter”, and sinotruksgroup.com.",
+      "evidenceLevel": "Candidate web evidence — requires engine plate/current filter confirmation",
+      "buyerNote": "Engine filter depends on WD615/WD10/MC engine variant and emission year. Confirm engine plate, thread/seal dimensions and existing filter label.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO / WD615 engine family",
+      "partGroup": "Thermostat",
+      "query": "HOWO VG1500061201 thermostat",
+      "candidateNumbers": [
+        "VG1500061201"
+      ],
+      "title": "Supplier results: HOWO thermostat core 71°C VG1500061201",
+      "url": "https://deruna.com/portfolio-item/howo-vg1500061201/",
+      "snippet": "Search results included deruna.com “VG1500061201: Precision 71°C Thermostat for SINOTRUK Howo”, sinotrukhowotruck.com “VG1500061201 Thermostat core 71°”, and Amazon compatibility listing.",
+      "evidenceLevel": "Candidate web evidence — requires engine/emission confirmation",
+      "buyerNote": "Confirm engine family, thermostat opening temperature, housing style and current part mark; do not use for all HOWO engines without EPC.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO / 中国重汽 HOWO 371/380 heavy truck family",
+      "partGroup": "Front bumper",
+      "query": "HOWO WG1642242101 bumper",
+      "candidateNumbers": [
+        "WG1642242101"
+      ],
+      "title": "Multiple supplier search results: SINOTRUK HOWO front/high bumper WG1642242101",
+      "url": "https://zktruck.com/cab-parts/front-bumper-wg1642242101/",
+      "snippet": "Yahoo result exposed zktruck, mack-truckparts, truckmantruck, howoparts, Alibaba and sinotruk-howo pages matching SINOTRUK/HOWO bumper with WG1642242101. Supplier/market evidence only, not VIN EPC.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Confirm HOWO cabin generation/model 10 vs A7/T7, high/low bumper, steel/plastic/reinforced, fog-lamp openings, mounting brackets and LHD Moroccan vehicle photos before ordering.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO / 中国重汽 HOWO 371/380 heavy truck family",
+      "partGroup": "Headlight LH",
+      "query": "HOWO WG9719720001 headlamp",
+      "candidateNumbers": [
+        "WG9719720001"
+      ],
+      "title": "Supplier results: Sinotruk HOWO left headlamp WG9719720001",
+      "url": "https://sinotrukparts.com/product/wg9719720001-sinotruk/",
+      "snippet": "Search results included sinotrukparts.com “WG9719720001 Sinotruk Howo Left Headlamp”, sinotruksgroup.com “Sinotruk Howo Left Headlamp WG9719720001” and sinotruk-howo.com “PK002155L Front Headlight”.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Candidate appears LH/left headlamp. Confirm side, LHD/RHD beam pattern, cabin/facelift, electric leveling and connector/photo before promotion.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO / 中国重汽 HOWO heavy truck family",
+      "partGroup": "Side mirror / rear-view mirror",
+      "query": "HOWO WG1642770001 mirror",
+      "candidateNumbers": [
+        "WG1642770001"
+      ],
+      "title": "Supplier results: HOWO rear-view mirror WG1642770001",
+      "url": "https://zktruck.com/howo-truck/rear-view-mirror-wg1642770001/",
+      "snippet": "Search results exposed zktruck “Howo High quality Rear View Mirror WG1642770001” and howoparts.com “SINOTRUK HOWO Driver Side Rear View Mirror WG1642770001”.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Confirm driver/passenger side, mirror arm length, heated/electric/manual, wide-angle lower mirror and cabin generation.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "Sinotruk HOWO heavy truck family",
+      "partGroup": "Radiator",
+      "query": "SINOTRUK HOWO radiator WG9719530231",
+      "candidateNumbers": [
+        "WG9719530231"
+      ],
+      "title": "Supplier results: Sinotruk HOWO radiator WG9719530231",
+      "url": "https://deyuantruckpart.en.made-in-china.com/product/",
+      "snippet": "Search results included Made-in-China “Sinotruk HOWO Truck Parts Radiator WG9719530231”, sinotrukhowospareparts.com “SINOTRUK Howo Truck Parts Howo Radiator WG9719530231”, and Alibaba.",
+      "evidenceLevel": "Candidate web evidence — requires VIN/cooling package confirmation",
+      "buyerNote": "Radiator varies by engine, cabin, A/C/intercooler package and mounting. Confirm dimensions, pipe positions, fan shroud/intercooler relation and VIN EPC.",
+      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
+    },
+    {
+      "vehicle": "DONGFENG Captain / 东风凯普特 H100/3500 candidate",
+      "partGroup": "Brake pads",
+      "candidateNumbers": [],
+      "title": "Dongfeng Kapute/Captain brake shoe/pad listings exist but exact OE not exposed",
+      "url": "https://www.gys.cn/jiashishijipeij/5054066346.html",
+      "snippet": "Chinese supplier result references 原厂东风凯普特前刹车片后桥刹车蹄片制动蹄片. Uploaded fiches indicate drum brakes AV/AR, so exact brake shoe/lining dimensions and axle variant must be confirmed.",
+      "evidenceLevel": "Part availability evidence only — OEM not confirmed",
+      "buyerNote": "Ask supplier for brake drum diameter, shoe width, axle model Dana 1900/3000 vs 2200/3500, and EPC screenshot.",
+      "collectedAt": "2026-05-21T20:35:37.567341+00:00"
+    },
+    {
+      "vehicle": "DONGFENG Captain / 东风凯普特 H100/3500 candidate",
+      "partGroup": "Filters",
+      "candidateNumbers": [],
+      "title": "JE493ZLQ4 engine/filter research queue",
+      "url": "https://product.360che.com/m62/15711_param.html",
+      "snippet": "Uploaded fiches identify JE493ZLQ4/Isuzu-type 2.771L common-rail diesel. Search found engine-family pages but no reliable oil/air/fuel filter OE numbers tied to these Moroccan Captain variants.",
+      "evidenceLevel": "Engine-family evidence only — filter OE not confirmed",
+      "buyerNote": "Confirm current oil/air/fuel filter labels or service manual; airbox/fuel-water separator may differ by market/body installation.",
+      "collectedAt": "2026-05-21T20:35:37.567342+00:00"
+    },
+    {
+      "vehicle": "DONGFENG Captain 3500 / 3500 L / H100 Morocco (JE493ZLQ4)",
+      "partGroup": "Vehicle profile",
+      "candidateNumbers": [],
+      "title": "User-provided Moroccan technical fiches: CAPTAIN 3500 L and captain 3400/H100",
+      "url": "local user PDF upload",
+      "snippet": "Fiches confirm DONGFENG Captain plateau ridelles variants with JE493ZLQ4 2.771L Isuzu-type engine, 3308mm wheelbase, 7.00R16 tyres, Dana axles; 3500 L has 2030mm cab/6-speed/pneumatic brakes/120L tank, H100 file has 1980mm cab/5-speed/hydraulic brakes/80L tank.",
+      "evidenceLevel": "Vehicle configuration evidence — not OE part-number evidence",
+      "buyerNote": "Use these specs to identify the correct family before EPC lookup. They do not contain exact OE numbers.",
+      "collectedAt": "2026-05-21T20:35:37.567318+00:00"
+    },
+    {
       "vehicle": "Dongfeng UVANE / 东风御风",
       "partGroup": "Front bumper",
       "candidateNumbers": [],
@@ -146,132 +318,6 @@
       "snippet": "Official global T2 page identifies T2 as Rugged Adventure SUV, engine 1.5/2.0T, wheelbase 2800mm, dimensions 4785*2006*1880, XWD/4WD features depending trim. Morocco local trim still requires dealer/VIN confirmation.",
       "evidenceLevel": "Official model-family evidence — not part-number evidence",
       "buyerNote": "Use Chinese model mapping 捷途旅行者 / Jetour Traveller for ICE T2; 山海T2 / T2 i-DM for PHEV. Confirm Morocco sold trim by VIN before OE lookup."
-    },
-    {
-      "vehicle": "Sinotruk HOWO / 中国重汽 HOWO 371/380 heavy truck family",
-      "partGroup": "Front bumper",
-      "query": "HOWO WG1642242101 bumper",
-      "candidateNumbers": [
-        "WG1642242101"
-      ],
-      "title": "Multiple supplier search results: SINOTRUK HOWO front/high bumper WG1642242101",
-      "url": "https://zktruck.com/cab-parts/front-bumper-wg1642242101/",
-      "snippet": "Yahoo result exposed zktruck, mack-truckparts, truckmantruck, howoparts, Alibaba and sinotruk-howo pages matching SINOTRUK/HOWO bumper with WG1642242101. Supplier/market evidence only, not VIN EPC.",
-      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
-      "buyerNote": "Confirm HOWO cabin generation/model 10 vs A7/T7, high/low bumper, steel/plastic/reinforced, fog-lamp openings, mounting brackets and LHD Moroccan vehicle photos before ordering.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO / 中国重汽 HOWO 371/380 heavy truck family",
-      "partGroup": "Headlight LH",
-      "query": "HOWO WG9719720001 headlamp",
-      "candidateNumbers": [
-        "WG9719720001"
-      ],
-      "title": "Supplier results: Sinotruk HOWO left headlamp WG9719720001",
-      "url": "https://sinotrukparts.com/product/wg9719720001-sinotruk/",
-      "snippet": "Search results included sinotrukparts.com “WG9719720001 Sinotruk Howo Left Headlamp”, sinotruksgroup.com “Sinotruk Howo Left Headlamp WG9719720001” and sinotruk-howo.com “PK002155L Front Headlight”.",
-      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
-      "buyerNote": "Candidate appears LH/left headlamp. Confirm side, LHD/RHD beam pattern, cabin/facelift, electric leveling and connector/photo before promotion.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO / 中国重汽 HOWO heavy truck family",
-      "partGroup": "Side mirror / rear-view mirror",
-      "query": "HOWO WG1642770001 mirror",
-      "candidateNumbers": [
-        "WG1642770001"
-      ],
-      "title": "Supplier results: HOWO rear-view mirror WG1642770001",
-      "url": "https://zktruck.com/howo-truck/rear-view-mirror-wg1642770001/",
-      "snippet": "Search results exposed zktruck “Howo High quality Rear View Mirror WG1642770001” and howoparts.com “SINOTRUK HOWO Driver Side Rear View Mirror WG1642770001”.",
-      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
-      "buyerNote": "Confirm driver/passenger side, mirror arm length, heated/electric/manual, wide-angle lower mirror and cabin generation.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO / HOWO A7 heavy truck family",
-      "partGroup": "Brake pads",
-      "query": "HOWO WG9100440027 brake pad",
-      "candidateNumbers": [
-        "WG9100440027"
-      ],
-      "title": "Supplier results: Sinotruk HOWO / HOWO A7 front brake pad WG9100440027",
-      "url": "https://lianwo.en.made-in-china.com/product/rOETgUsdAFpb/China-HOWO-A7-Part-Brake-Pad-6-Holes-Wg9100440027-Sinotruk-Spare-Parts.html",
-      "snippet": "Search results included Made-in-China “HOWO A7 Part Brake Pad 6-Holes WG9100440027”, Alibaba “Front Brake Pad WG9100440027”, and sinosms.com “WG9100440027 Front Brake Pad for Sinotruk HOWO Truck”.",
-      "evidenceLevel": "Candidate web evidence — requires axle/brake-system + EPC/VIN confirmation",
-      "buyerNote": "Brake pad is axle/brake-caliper dependent. Confirm A7 vs classic HOWO, front/rear axle, 6-hole pad shape/dimensions and current pad photo.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO / WD615 engine family",
-      "partGroup": "Oil filter",
-      "query": "HOWO VG61000070005 oil filter",
-      "candidateNumbers": [
-        "VG61000070005"
-      ],
-      "title": "Supplier results: Sinotruk HOWO WD615 oil filter VG61000070005",
-      "url": "https://www.fridayparts.com/oil-filter-vg61000070005-for-sinotruk-howo-engine-wd615",
-      "snippet": "Search results included FridayParts “Oil Filter VG61000070005 for Sinotruk Howo Engine WD615”, sinotrukparts.com “VG61000070005 Sinotruk Howo Oil Filter”, and sinotruksgroup.com.",
-      "evidenceLevel": "Candidate web evidence — requires engine plate/current filter confirmation",
-      "buyerNote": "Engine filter depends on WD615/WD10/MC engine variant and emission year. Confirm engine plate, thread/seal dimensions and existing filter label.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO / WD615 engine family",
-      "partGroup": "Fuel filter",
-      "query": "HOWO VG1540080211 filter",
-      "candidateNumbers": [
-        "VG1540080211"
-      ],
-      "title": "Supplier/filter results: HOWO fuel filter VG1540080211 / CX1016",
-      "url": "https://www.sinotruk-parts-store.com/html/Howo_Parts/VG1540080211_Fuel_Filter_Howo_Truck_Parts.html",
-      "snippet": "Search results labelled VG1540080211 as Fuel Filter / HOWO truck parts; cross-reference and Greatman result also exposed VG1540080211/CX1016. Not treated as air filter despite one broad filter query.",
-      "evidenceLevel": "Candidate web evidence — requires engine/fuel-system + current filter confirmation",
-      "buyerNote": "Confirm exact filter type (fuel vs separator), engine, fuel-water separator layout and current filter marking before ordering.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO / WD615 engine family",
-      "partGroup": "Clutch disc",
-      "query": "HOWO WG1560161130 clutch disc",
-      "candidateNumbers": [
-        "WG1560161130"
-      ],
-      "title": "Supplier results: HOWO clutch disc / clutch disk WG1560161130",
-      "url": "https://www.sinotruk-parts-store.com/html/Howo_Parts/WG1560161130_Howo_Truck_Parts_Clutch_Disk_Product.html",
-      "snippet": "Search results exposed sinotruk-parts-store “WG1560161130, Howo Truck Parts, Clutch Disk”, Made-in-China “Wg1560161130 Clutch Disc for Sinotruk HOWO Heavy Duty Truck”, and sinotrukhowospareparts.com.",
-      "evidenceLevel": "Candidate web evidence — requires gearbox/clutch dimensions + EPC/VIN confirmation",
-      "buyerNote": "Confirm clutch diameter, spline count, engine torque rating, gearbox model and whether kit includes pressure plate/release bearing.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO heavy truck family",
-      "partGroup": "Radiator",
-      "query": "SINOTRUK HOWO radiator WG9719530231",
-      "candidateNumbers": [
-        "WG9719530231"
-      ],
-      "title": "Supplier results: Sinotruk HOWO radiator WG9719530231",
-      "url": "https://deyuantruckpart.en.made-in-china.com/product/",
-      "snippet": "Search results included Made-in-China “Sinotruk HOWO Truck Parts Radiator WG9719530231”, sinotrukhowospareparts.com “SINOTRUK Howo Truck Parts Howo Radiator WG9719530231”, and Alibaba.",
-      "evidenceLevel": "Candidate web evidence — requires VIN/cooling package confirmation",
-      "buyerNote": "Radiator varies by engine, cabin, A/C/intercooler package and mounting. Confirm dimensions, pipe positions, fan shroud/intercooler relation and VIN EPC.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
-    },
-    {
-      "vehicle": "Sinotruk HOWO / WD615 engine family",
-      "partGroup": "Thermostat",
-      "query": "HOWO VG1500061201 thermostat",
-      "candidateNumbers": [
-        "VG1500061201"
-      ],
-      "title": "Supplier results: HOWO thermostat core 71°C VG1500061201",
-      "url": "https://deruna.com/portfolio-item/howo-vg1500061201/",
-      "snippet": "Search results included deruna.com “VG1500061201: Precision 71°C Thermostat for SINOTRUK Howo”, sinotrukhowotruck.com “VG1500061201 Thermostat core 71°”, and Amazon compatibility listing.",
-      "evidenceLevel": "Candidate web evidence — requires engine/emission confirmation",
-      "buyerNote": "Confirm engine family, thermostat opening temperature, housing style and current part mark; do not use for all HOWO engines without EPC.",
-      "collectedAt": "2026-05-21T20:30:51.974052+00:00"
     }
   ]
 }
