@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-05-21T17:36:51.296920Z",
+  "records": 2136,
+  "brands": 34,
+  "models": 226,
+  "confirmedOE": 1513,
+  "highConfidence": 546,
+  "mediumConfidence": 1302,
+  "lowConfidence": 288,
+  "groups": {
+    "Brake pads": 314,
+    "Rear bumper": 211,
+    "Front bumper": 251,
+    "Taillights": 120,
+    "Headlights": 137,
+    "Side mirrors": 75,
+    "Other": 967,
+    "Engine internals": 3,
+    "Engine cooling": 1,
+    "Brake discs": 21,
+    "Filters": 36
+  },
+  "topBrands": [
+    [
+      "BYD",
+      952
+    ],
+    [
+      "CHANGAN",
+      272
+    ],
+    [
+      "CHERY/JETOUR",
+      146
+    ],
+    [
+      "MG",
+      110
+    ],
+    [
+      "GEELY",
+      96
+    ],
+    [
+      "DONGFENG/DFSK",
+      92
+    ],
+    [
+      "FAW",
+      63
+    ],
+    [
+      "CHERY",
+      51
+    ],
+    [
+      "MAXUS",
+      45
+    ],
+    [
+      "GAC",
+      40
+    ],
+    [
+      "SINOTRUK HOWO",
+      37
+    ],
+    [
+      "GWM | HAVAL",
+      33
+    ],
+    [
+      "GREAT WALL / GWM",
+      26
+    ],
+    [
+      "JAC",
+      25
+    ],
+    [
+      "DFSK",
+      16
+    ],
+    [
+      "FOTON",
+      16
+    ],
+    [
+      "Forland",
+      16
+    ],
+    [
+      "Shacman",
+      16
+    ],
+    [
+      "UNKNOWN",
+      13
+    ],
+    [
+      "DONGFENG/WULING",
+      12
+    ]
+  ]
+}
