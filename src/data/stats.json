@@ -1,24 +1,40 @@
 {
-  "generatedAt": "2026-05-21T17:36:51.296920Z",
-  "records": 2136,
-  "brands": 34,
-  "models": 226,
+  "generatedAt": "2026-05-21T19:08:35.626004Z",
+  "records": 2160,
+  "brands": 35,
+  "models": 227,
   "confirmedOE": 1513,
   "highConfidence": 546,
   "mediumConfidence": 1302,
-  "lowConfidence": 288,
+  "lowConfidence": 312,
   "groups": {
-    "Brake pads": 314,
-    "Rear bumper": 211,
-    "Front bumper": 251,
-    "Taillights": 120,
-    "Headlights": 137,
-    "Side mirrors": 75,
+    "Brake pads": 315,
+    "Rear bumper": 212,
+    "Front bumper": 252,
+    "Taillights": 121,
+    "Headlights": 138,
+    "Side mirrors": 76,
     "Other": 967,
     "Engine internals": 3,
     "Engine cooling": 1,
-    "Brake discs": 21,
-    "Filters": 36
+    "Brake discs": 22,
+    "Filters": 37,
+    "Doors": 1,
+    "Hood": 1,
+    "Water pump": 1,
+    "Radiator": 1,
+    "Thermostat": 1,
+    "Cylinder head": 1,
+    "Pistons/rings": 1,
+    "Crankshaft/camshaft": 1,
+    "EGR": 1,
+    "DPF/DPR": 1,
+    "Clutch disc": 1,
+    "Pressure plate": 1,
+    "Release bearing": 1,
+    "Clutch booster/master": 1,
+    "Hubs": 1,
+    "Clutch rings": 1
   },
   "topBrands": [
     [
@@ -78,6 +94,10 @@
       25
     ],
     [
+      "JETOUR",
+      24
+    ],
+    [
       "DFSK",
       16
     ],
@@ -96,10 +116,6 @@
     [
       "UNKNOWN",
       13
-    ],
-    [
-      "DONGFENG/WULING",
-      12
     ]
   ]
 }

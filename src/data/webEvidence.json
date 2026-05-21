@@ -1,11 +1,13 @@
 {
-  "generatedAt": "2026-05-21T18:30:00Z",
+  "generatedAt": "2026-05-21T19:08:35.635336Z",
   "queryCount": 70,
   "records": [
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
       "partGroup": "Clutch disc",
-      "candidateNumbers": ["1601130-K11001"],
+      "candidateNumbers": [
+        "1601130-K11001"
+      ],
       "title": "东风御风离合器片 / clutch driven disc public supplier listing",
       "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
       "snippet": "Supplier page title references 东风御风离合器片, 东风御风离合器压盘, 1601130-K11001 and related Dongfeng light-engine parts. Treat as supplier/market evidence, not VIN EPC.",
@@ -15,7 +17,9 @@
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
       "partGroup": "Pressure plate",
-      "candidateNumbers": ["1601090-K11001"],
+      "candidateNumbers": [
+        "1601090-K11001"
+      ],
       "title": "Dongfeng Yufeng clutch pressure plate candidate from public Yufeng-family listings",
       "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
       "snippet": "Same public supplier context lists Dongfeng Yufeng clutch disc/pressure-plate family. 1601090-K11001 was identified as paired candidate pressure plate in prior public web research; still not VIN-confirmed EPC.",
@@ -25,7 +29,9 @@
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
       "partGroup": "Brake pads",
-      "candidateNumbers": ["3501013-K11001"],
+      "candidateNumbers": [
+        "3501013-K11001"
+      ],
       "title": "东风御风 front brake pad / front brake block candidate",
       "url": "http://www.qipeiren.com/",
       "snippet": "Public search results referenced 东风御风碟刹前刹车片总成 / 前制动块 with 3501013-K11001. Marketplace/supplier evidence only.",
@@ -35,7 +41,9 @@
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
       "partGroup": "Brake caliper / brake system",
-      "candidateNumbers": ["3501014-K11001"],
+      "candidateNumbers": [
+        "3501014-K11001"
+      ],
       "title": "Dongfeng Yufeng brake-related candidate listing",
       "url": "http://www.qipeiren.com/",
       "snippet": "Public candidate from Yufeng-family brake listings; likely brake caliper/brake-related component, not yet exact user-requested brake disc/pad proof.",
@@ -45,7 +53,10 @@
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / ZD25/ZD30 engine family candidate",
       "partGroup": "Water pump",
-      "candidateNumbers": ["21010A080A", "210102DB0A"],
+      "candidateNumbers": [
+        "21010A080A",
+        "210102DB0A"
+      ],
       "title": "东风御风水泵 ZD25D14-4N engine water pump public supplier result",
       "url": "http://www.qipeiren.com/",
       "snippet": "Search result title referenced 东风御风水泵 ZD25D14-4N 发动机水泵 with 21010A080A and 210102DB0A. Engine-dependent; not safe without engine plate.",
@@ -55,7 +66,9 @@
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
       "partGroup": "Clutch master / clutch booster workflow",
-      "candidateNumbers": ["1604010-K11001"],
+      "candidateNumbers": [
+        "1604010-K11001"
+      ],
       "title": "东风御风 clutch master cylinder candidate",
       "url": "http://www.qipeiren.com/",
       "snippet": "Public Yufeng-family listings identified 1604010-K11001 as 离合器总泵总成 candidate. This is clutch master cylinder, not automatically a booster/servo.",
@@ -65,7 +78,9 @@
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
       "partGroup": "Brake booster — not clutch booster",
-      "candidateNumbers": ["3505510-K11001"],
+      "candidateNumbers": [
+        "3505510-K11001"
+      ],
       "title": "Dongfeng Yufeng brake vacuum booster candidate",
       "url": "http://www.qipeiren.com/",
       "snippet": "Public listing candidate for 刹车助力器 / vacuum brake booster. Included to prevent confusion with clutch booster.",
@@ -101,6 +116,36 @@
       "snippet": "Public search result found Dongfeng Yufeng EGR valve listings for Nissan-type ZD30/ZD25 engine parts, but accessible snippet did not expose reliable part number.",
       "evidenceLevel": "Engine-family evidence only — OEM not confirmed",
       "buyerNote": "EGR/DPF are emission-standard and engine-code dependent. Need engine plate, Euro/China emission level and current part label."
+    },
+    {
+      "vehicle": "JETOUR T2 Morocco / Jetour Traveller / 捷途旅行者",
+      "partGroup": "Vehicle profile",
+      "candidateNumbers": [],
+      "title": "Official JETOUR Global T2 page — T2 family specification",
+      "url": "https://www.jetourglobal.com/T2",
+      "snippet": "Official global T2 page identifies T2 as Rugged Adventure SUV, engine 1.5/2.0T, wheelbase 2800mm, dimensions 4785*2006*1880, XWD/4WD features depending trim. Morocco local trim still requires dealer/VIN confirmation.",
+      "evidenceLevel": "Official model-family evidence — not part-number evidence",
+      "buyerNote": "Use Chinese model mapping 捷途旅行者 / Jetour Traveller for ICE T2; 山海T2 / T2 i-DM for PHEV. Confirm Morocco sold trim by VIN before OE lookup."
+    },
+    {
+      "vehicle": "JETOUR T2 Morocco / Jetour Traveller / 捷途旅行者",
+      "partGroup": "Body/lamp/mirror parts",
+      "candidateNumbers": [],
+      "title": "Chinese-web research queue for bumper/headlamp/taillamp/mirror/door/hood",
+      "url": "https://www.jetourglobal.com/T2",
+      "snippet": "No reliable public OE numbers were confirmed during accessible search. Add to RFQ/EPC queue: 前保险杠, 后保险杠, 大灯总成, 尾灯, 后视镜, 车门, 发动机盖 plus 捷途旅行者.",
+      "evidenceLevel": "Research queue — OEM not confirmed",
+      "buyerNote": "For exterior parts require VIN EPC screenshot, LHD beam pattern, LED/ADAS/sensor variants, LH/RH and facelift/production date."
+    },
+    {
+      "vehicle": "JETOUR T2 Morocco / Jetour Traveller / 捷途旅行者",
+      "partGroup": "Service/brake/engine parts",
+      "candidateNumbers": [],
+      "title": "Chinese-web research queue for filters/brakes/cooling/engine/emissions",
+      "url": "https://www.jetourglobal.com/T2",
+      "snippet": "No safe OE numbers confirmed. Engine/transmission dependent: 1.5T vs 2.0T, ICE vs i-DM/PHEV, AWD/FWD, emission standard. Search terms queued: 刹车片, 制动盘, 滤清器, 水泵, 散热器, 节温器, EGR阀, 颗粒捕集器.",
+      "evidenceLevel": "Research queue — OEM not confirmed",
+      "buyerNote": "Do not source engine/cooling/emission parts without engine code, current part label or EPC by VIN."
     }
   ]
 }
