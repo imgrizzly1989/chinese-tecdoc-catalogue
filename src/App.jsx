@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import catalogue from './data/catalogue.json'
 import stats from './data/stats.json'
+import webEvidence from './data/webEvidence.json'
 import './App.css'
 
 const requestedGroups = [
@@ -77,6 +78,24 @@ function App() {
         <Badge title="Source trace" text="Every row keeps source file and page/line evidence." />
         <Badge title="Buyer safe" text="VIN, photos, LHD, facelift and position checks are embedded." />
         <Badge title="Scalable" text="Ready to add engine, clutch, DPF/EGR and heavy-truck master data." />
+      </div>
+    </section>
+
+    <section className="webLab">
+      <div className="webLabHead">
+        <p className="eyebrow">Internet OEM Research Lab</p>
+        <h2>Chinese-web candidate evidence queue</h2>
+        <p>These are new numbers and leads mined from Chinese supplier/marketplace pages. They are intentionally separated from confirmed catalogue rows until a VIN EPC screenshot, current-part label, or supplier confirmation verifies exact fitment.</p>
+      </div>
+      <div className="webGrid">
+        {webEvidence.records.map((r,idx)=><article key={`${r.vehicle}-${r.partGroup}-${idx}`}>
+          <div className="webMeta"><span>{r.partGroup}</span><b>{r.vehicle}</b></div>
+          <h3>{r.candidateNumbers?.length ? r.candidateNumbers.join(' · ') : 'OEM not exposed online'}</h3>
+          <p>{r.title}</p>
+          <small>{r.evidenceLevel}</small>
+          <p className="buyerNote">{r.buyerNote}</p>
+          <a href={r.url} target="_blank" rel="noreferrer">Open source lead</a>
+        </article>)}
       </div>
     </section>
 

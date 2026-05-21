@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-05-21T18:30:00Z",
+  "queryCount": 70,
+  "records": [
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
+      "partGroup": "Clutch disc",
+      "candidateNumbers": ["1601130-K11001"],
+      "title": "东风御风离合器片 / clutch driven disc public supplier listing",
+      "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
+      "snippet": "Supplier page title references 东风御风离合器片, 东风御风离合器压盘, 1601130-K11001 and related Dongfeng light-engine parts. Treat as supplier/market evidence, not VIN EPC.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Likely Yufeng-family clutch driven disc candidate. Confirm engine, gearbox, clutch diameter/spline count and VIN EPC screenshot before ordering."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
+      "partGroup": "Pressure plate",
+      "candidateNumbers": ["1601090-K11001"],
+      "title": "Dongfeng Yufeng clutch pressure plate candidate from public Yufeng-family listings",
+      "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
+      "snippet": "Same public supplier context lists Dongfeng Yufeng clutch disc/pressure-plate family. 1601090-K11001 was identified as paired candidate pressure plate in prior public web research; still not VIN-confirmed EPC.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Confirm against current pressure plate stamp and gearbox/clutch kit dimensions."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
+      "partGroup": "Brake pads",
+      "candidateNumbers": ["3501013-K11001"],
+      "title": "东风御风 front brake pad / front brake block candidate",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Public search results referenced 东风御风碟刹前刹车片总成 / 前制动块 with 3501013-K11001. Marketplace/supplier evidence only.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Confirm front/rear, disc/drum, caliper shape, pad dimensions and chassis GVW."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
+      "partGroup": "Brake caliper / brake system",
+      "candidateNumbers": ["3501014-K11001"],
+      "title": "Dongfeng Yufeng brake-related candidate listing",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Public candidate from Yufeng-family brake listings; likely brake caliper/brake-related component, not yet exact user-requested brake disc/pad proof.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Do not substitute for brake disc number. Needs caliper/knuckle/axle confirmation."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / ZD25/ZD30 engine family candidate",
+      "partGroup": "Water pump",
+      "candidateNumbers": ["21010A080A", "210102DB0A"],
+      "title": "东风御风水泵 ZD25D14-4N engine water pump public supplier result",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Search result title referenced 东风御风水泵 ZD25D14-4N 发动机水泵 with 21010A080A and 210102DB0A. Engine-dependent; not safe without engine plate.",
+      "evidenceLevel": "Candidate web evidence — requires engine plate + EPC/VIN confirmation",
+      "buyerNote": "Confirm whether VIN uses ZD25/ZD30/Weichai/Yuchai engine. Water pump is engine-code dependent."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
+      "partGroup": "Clutch master / clutch booster workflow",
+      "candidateNumbers": ["1604010-K11001"],
+      "title": "东风御风 clutch master cylinder candidate",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Public Yufeng-family listings identified 1604010-K11001 as 离合器总泵总成 candidate. This is clutch master cylinder, not automatically a booster/servo.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Ask supplier whether requested 'clutch booster' means master cylinder, slave cylinder, hydraulic booster, or pneumatic booster."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
+      "partGroup": "Brake booster — not clutch booster",
+      "candidateNumbers": ["3505510-K11001"],
+      "title": "Dongfeng Yufeng brake vacuum booster candidate",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Public listing candidate for 刹车助力器 / vacuum brake booster. Included to prevent confusion with clutch booster.",
+      "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
+      "buyerNote": "Do not order this as clutch booster unless supplier confirms the exact system."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风",
+      "partGroup": "Front bumper",
+      "candidateNumbers": [],
+      "title": "东风御风前保险杠 原厂 现货 带小中网 带支架 public marketplace result",
+      "url": "https://www.taobao.com/",
+      "snippet": "Public marketplace search result confirms availability of front bumper assemblies but did not expose reliable OE number in accessible snippet.",
+      "evidenceLevel": "Part availability evidence only — OEM not confirmed",
+      "buyerNote": "For bumper, require photo, grille/fog/sensor holes, facelift, painted/unpainted and EPC screenshot by VIN."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风",
+      "partGroup": "Side mirrors",
+      "candidateNumbers": [],
+      "title": "东风御风后视镜总成 public marketplace results",
+      "url": "https://www.taobao.com/",
+      "snippet": "Public search results show mirror assemblies for Dongfeng Yufeng, including electric mirror glass/turn signal variants, but no reliable OE exposed in accessible result text.",
+      "evidenceLevel": "Part availability evidence only — OEM not confirmed",
+      "buyerNote": "Need LH/RH, electric/manual, heated/non-heated, turn-signal variant and LHD market confirmation."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / ZD25/ZD30 candidate",
+      "partGroup": "EGR",
+      "candidateNumbers": [],
+      "title": "东风御风EGR阀 ZD30/ZD25 engine listings exist but number not exposed",
+      "url": "https://www.taobao.com/",
+      "snippet": "Public search result found Dongfeng Yufeng EGR valve listings for Nissan-type ZD30/ZD25 engine parts, but accessible snippet did not expose reliable part number.",
+      "evidenceLevel": "Engine-family evidence only — OEM not confirmed",
+      "buyerNote": "EGR/DPF are emission-standard and engine-code dependent. Need engine plate, Euro/China emission level and current part label."
+    }
+  ]
+}
