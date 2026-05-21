@@ -54,6 +54,7 @@ PN_PATTERNS = [
     re.compile(r'\b[A-Z]{2,5}\d{2,5}[A-Z0-9-]{2,}\b'),
 ]
 BAD = {'HTTP','HTTPS','HTML','UTF','GBK','GB2312','DOCTYPE','BING','CACHE','JAVASCRIPT','CMAPI00048835'}
+BAD_PREFIXES = ('INDEX-', 'ITEM-', 'MALL-', 'SHOP-', 'HTTP-', 'HTTPS-')
 
 def fetch(q):
     # DuckDuckGo HTML currently exposes Chinese marketplace pages more reliably than Bing for these queries.
@@ -97,7 +98,7 @@ def pns(text):
     for pat in PN_PATTERNS:
         for m in pat.findall(text.upper()):
             x=m.strip('.,;:()[]{}<>，。；：')
-            if len(x) < 6 or x in BAD: continue
+            if len(x) < 6 or x in BAD or x.startswith(BAD_PREFIXES): continue
             if re.search(r'\d',x) and not re.match(r'^[0-9]{4}$', x): found.add(x)
     return sorted(found)
 
@@ -156,14 +157,29 @@ def main():
                 })
         # polite throttle; DDG/Chinese result pages are slow, so keep this small for batch mining.
         time.sleep(0.03)
-    # Sort: candidates with numbers first
-    evidence.sort(key=lambda r: (len(r['candidateNumbers']) == 0, r['vehicle'], r['partGroup']))
-    OUT.write_text(json.dumps({'generatedAt': datetime.now(timezone.utc).isoformat(), 'queryCount': qcount, 'records': evidence}, ensure_ascii=False, indent=2), encoding='utf-8')
+    # Preserve curated/manual evidence and merge fresh hits instead of overwriting better rows.
+    existing=[]
+    if OUT.exists():
+        try:
+            existing=json.loads(OUT.read_text(encoding='utf-8')).get('records', [])
+        except Exception:
+            existing=[]
+    merged=[]; mseen=set()
+    for r in existing + evidence:
+        nums=[n for n in r.get('candidateNumbers', []) if not str(n).upper().startswith(BAD_PREFIXES)]
+        r=dict(r); r['candidateNumbers']=nums
+        key=(r.get('vehicle',''), r.get('partGroup',''), r.get('url',''), r.get('title',''))
+        if key in mseen: continue
+        mseen.add(key); merged.append(r)
+    # Sort: candidates with numbers first, while keeping curated rows.
+    merged.sort(key=lambda r: (len(r.get('candidateNumbers', [])) == 0, r.get('vehicle',''), r.get('partGroup','')))
+    OUT.write_text(json.dumps({'generatedAt': datetime.now(timezone.utc).isoformat(), 'queryCount': qcount, 'records': merged}, ensure_ascii=False, indent=2), encoding='utf-8')
+    fieldnames=['vehicle','partGroup','candidateNumbers','title','url','snippet','query','evidenceLevel','buyerNote','collectedAt']
     with CSVOUT.open('w', encoding='utf-8-sig', newline='') as f:
-        w=csv.DictWriter(f, fieldnames=['vehicle','partGroup','candidateNumbers','title','url','snippet','query','evidenceLevel','collectedAt'])
+        w=csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
         w.writeheader()
-        for r in evidence:
-            row=r.copy(); row['candidateNumbers']='; '.join(row['candidateNumbers']); w.writerow(row)
-    print(json.dumps({'queries': qcount, 'evidence_records': len(evidence), 'records_with_candidate_numbers': sum(bool(r['candidateNumbers']) for r in evidence), 'out': str(OUT)}, ensure_ascii=False, indent=2))
+        for r in merged:
+            row=r.copy(); row['candidateNumbers']='; '.join(row.get('candidateNumbers', [])); w.writerow(row)
+    print(json.dumps({'queries': qcount, 'evidence_records': len(merged), 'new_hits': len(evidence), 'records_with_candidate_numbers': sum(bool(r.get('candidateNumbers')) for r in merged), 'out': str(OUT)}, ensure_ascii=False, indent=2))
 
 if __name__ == '__main__': main()

@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-05-21T19:08:35.635336Z",
+  "generatedAt": "2026-05-21T20:29:04.130078+00:00",
   "queryCount": 70,
   "records": [
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
-      "partGroup": "Clutch disc",
+      "partGroup": "Brake booster — not clutch booster",
       "candidateNumbers": [
-        "1601130-K11001"
+        "3505510-K11001"
       ],
-      "title": "东风御风离合器片 / clutch driven disc public supplier listing",
-      "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
-      "snippet": "Supplier page title references 东风御风离合器片, 东风御风离合器压盘, 1601130-K11001 and related Dongfeng light-engine parts. Treat as supplier/market evidence, not VIN EPC.",
+      "title": "Dongfeng Yufeng brake vacuum booster candidate",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Public listing candidate for 刹车助力器 / vacuum brake booster. Included to prevent confusion with clutch booster.",
       "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
-      "buyerNote": "Likely Yufeng-family clutch driven disc candidate. Confirm engine, gearbox, clutch diameter/spline count and VIN EPC screenshot before ordering."
+      "buyerNote": "Do not order this as clutch booster unless supplier confirms the exact system."
     },
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
-      "partGroup": "Pressure plate",
+      "partGroup": "Brake caliper / brake system",
       "candidateNumbers": [
-        "1601090-K11001"
+        "3501014-K11001"
       ],
-      "title": "Dongfeng Yufeng clutch pressure plate candidate from public Yufeng-family listings",
-      "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
-      "snippet": "Same public supplier context lists Dongfeng Yufeng clutch disc/pressure-plate family. 1601090-K11001 was identified as paired candidate pressure plate in prior public web research; still not VIN-confirmed EPC.",
+      "title": "Dongfeng Yufeng brake-related candidate listing",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Public candidate from Yufeng-family brake listings; likely brake caliper/brake-related component, not yet exact user-requested brake disc/pad proof.",
       "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
-      "buyerNote": "Confirm against current pressure plate stamp and gearbox/clutch kit dimensions."
+      "buyerNote": "Do not substitute for brake disc number. Needs caliper/knuckle/axle confirmation."
     },
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
@@ -40,28 +40,15 @@
     },
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
-      "partGroup": "Brake caliper / brake system",
+      "partGroup": "Clutch disc",
       "candidateNumbers": [
-        "3501014-K11001"
+        "1601130-K11001"
       ],
-      "title": "Dongfeng Yufeng brake-related candidate listing",
-      "url": "http://www.qipeiren.com/",
-      "snippet": "Public candidate from Yufeng-family brake listings; likely brake caliper/brake-related component, not yet exact user-requested brake disc/pad proof.",
+      "title": "东风御风离合器片 / clutch driven disc public supplier listing",
+      "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
+      "snippet": "Supplier page title references 东风御风离合器片, 东风御风离合器压盘, 1601130-K11001 and related Dongfeng light-engine parts. Treat as supplier/market evidence, not VIN EPC.",
       "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
-      "buyerNote": "Do not substitute for brake disc number. Needs caliper/knuckle/axle confirmation."
-    },
-    {
-      "vehicle": "Dongfeng UVANE / 东风御风 / ZD25/ZD30 engine family candidate",
-      "partGroup": "Water pump",
-      "candidateNumbers": [
-        "21010A080A",
-        "210102DB0A"
-      ],
-      "title": "东风御风水泵 ZD25D14-4N engine water pump public supplier result",
-      "url": "http://www.qipeiren.com/",
-      "snippet": "Search result title referenced 东风御风水泵 ZD25D14-4N 发动机水泵 with 21010A080A and 210102DB0A. Engine-dependent; not safe without engine plate.",
-      "evidenceLevel": "Candidate web evidence — requires engine plate + EPC/VIN confirmation",
-      "buyerNote": "Confirm whether VIN uses ZD25/ZD30/Weichai/Yuchai engine. Water pump is engine-code dependent."
+      "buyerNote": "Likely Yufeng-family clutch driven disc candidate. Confirm engine, gearbox, clutch diameter/spline count and VIN EPC screenshot before ordering."
     },
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
@@ -77,15 +64,28 @@
     },
     {
       "vehicle": "Dongfeng UVANE / 东风御风 / Yufeng A100/V9",
-      "partGroup": "Brake booster — not clutch booster",
+      "partGroup": "Pressure plate",
       "candidateNumbers": [
-        "3505510-K11001"
+        "1601090-K11001"
       ],
-      "title": "Dongfeng Yufeng brake vacuum booster candidate",
-      "url": "http://www.qipeiren.com/",
-      "snippet": "Public listing candidate for 刹车助力器 / vacuum brake booster. Included to prevent confusion with clutch booster.",
+      "title": "Dongfeng Yufeng clutch pressure plate candidate from public Yufeng-family listings",
+      "url": "https://www.gys.cn/qtfadongxitong/3987345591.html",
+      "snippet": "Same public supplier context lists Dongfeng Yufeng clutch disc/pressure-plate family. 1601090-K11001 was identified as paired candidate pressure plate in prior public web research; still not VIN-confirmed EPC.",
       "evidenceLevel": "Candidate web evidence — requires EPC/VIN/supplier confirmation",
-      "buyerNote": "Do not order this as clutch booster unless supplier confirms the exact system."
+      "buyerNote": "Confirm against current pressure plate stamp and gearbox/clutch kit dimensions."
+    },
+    {
+      "vehicle": "Dongfeng UVANE / 东风御风 / ZD25/ZD30 engine family candidate",
+      "partGroup": "Water pump",
+      "candidateNumbers": [
+        "21010A080A",
+        "210102DB0A"
+      ],
+      "title": "东风御风水泵 ZD25D14-4N engine water pump public supplier result",
+      "url": "http://www.qipeiren.com/",
+      "snippet": "Search result title referenced 东风御风水泵 ZD25D14-4N 发动机水泵 with 21010A080A and 210102DB0A. Engine-dependent; not safe without engine plate.",
+      "evidenceLevel": "Candidate web evidence — requires engine plate + EPC/VIN confirmation",
+      "buyerNote": "Confirm whether VIN uses ZD25/ZD30/Weichai/Yuchai engine. Water pump is engine-code dependent."
     },
     {
       "vehicle": "Dongfeng UVANE / 东风御风",
@@ -119,16 +119,6 @@
     },
     {
       "vehicle": "JETOUR T2 Morocco / Jetour Traveller / 捷途旅行者",
-      "partGroup": "Vehicle profile",
-      "candidateNumbers": [],
-      "title": "Official JETOUR Global T2 page — T2 family specification",
-      "url": "https://www.jetourglobal.com/T2",
-      "snippet": "Official global T2 page identifies T2 as Rugged Adventure SUV, engine 1.5/2.0T, wheelbase 2800mm, dimensions 4785*2006*1880, XWD/4WD features depending trim. Morocco local trim still requires dealer/VIN confirmation.",
-      "evidenceLevel": "Official model-family evidence — not part-number evidence",
-      "buyerNote": "Use Chinese model mapping 捷途旅行者 / Jetour Traveller for ICE T2; 山海T2 / T2 i-DM for PHEV. Confirm Morocco sold trim by VIN before OE lookup."
-    },
-    {
-      "vehicle": "JETOUR T2 Morocco / Jetour Traveller / 捷途旅行者",
       "partGroup": "Body/lamp/mirror parts",
       "candidateNumbers": [],
       "title": "Chinese-web research queue for bumper/headlamp/taillamp/mirror/door/hood",
@@ -146,6 +136,16 @@
       "snippet": "No safe OE numbers confirmed. Engine/transmission dependent: 1.5T vs 2.0T, ICE vs i-DM/PHEV, AWD/FWD, emission standard. Search terms queued: 刹车片, 制动盘, 滤清器, 水泵, 散热器, 节温器, EGR阀, 颗粒捕集器.",
       "evidenceLevel": "Research queue — OEM not confirmed",
       "buyerNote": "Do not source engine/cooling/emission parts without engine code, current part label or EPC by VIN."
+    },
+    {
+      "vehicle": "JETOUR T2 Morocco / Jetour Traveller / 捷途旅行者",
+      "partGroup": "Vehicle profile",
+      "candidateNumbers": [],
+      "title": "Official JETOUR Global T2 page — T2 family specification",
+      "url": "https://www.jetourglobal.com/T2",
+      "snippet": "Official global T2 page identifies T2 as Rugged Adventure SUV, engine 1.5/2.0T, wheelbase 2800mm, dimensions 4785*2006*1880, XWD/4WD features depending trim. Morocco local trim still requires dealer/VIN confirmation.",
+      "evidenceLevel": "Official model-family evidence — not part-number evidence",
+      "buyerNote": "Use Chinese model mapping 捷途旅行者 / Jetour Traveller for ICE T2; 山海T2 / T2 i-DM for PHEV. Confirm Morocco sold trim by VIN before OE lookup."
     }
   ]
 }
